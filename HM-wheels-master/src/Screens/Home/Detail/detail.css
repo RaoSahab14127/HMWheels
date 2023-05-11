@@ -1,0 +1,49 @@
+.main-detail {
+  display: flex;
+  justify-content: center;
+}
+.main-detail-child {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+.left-detail {
+  display: flex;
+  flex-direction: column;
+}
+.detail-img {
+  width: 500px;
+  height: 400px;
+  border-radius: 6px;
+}
+.det-carinfo-price {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.det-city-color {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.det-description {
+  width: 500px;
+}
+.right-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-btn {
+  width: 70px;
+  height: 40px;
+  background-color: rgb(67, 255, 50);
+  color: rgb(255, 243, 226);
+  border: 1px solid rgb(67, 255, 50);
+  border-radius: 8px;
+}
+.detail-txt {
+  color: rgb(0, 0, 131);
+}

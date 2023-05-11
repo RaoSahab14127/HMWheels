@@ -1,0 +1,66 @@
+* {
+  font-family: sans-serif;
+}
+.header-img {
+  width: 60px;
+  height: 50px;
+  border-radius: 50px;
+}
+.profile-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+.profile-logout {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.main-header {
+  background-color: #141414;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.header-signin {
+  display: flex;
+  justify-content: space-between;
+}
+.signup-signin {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.signin-signup-border {
+  height: 20px;
+  border-left: 1px solid rgb(250, 220, 164);
+}
+.header-catogories {
+  display: flex;
+  justify-content: space-around;
+}
+.header-links {
+  color: rgb(186, 222, 253);
+  cursor: pointer;
+  font-size: large;
+}
+.header-links:hover {
+  color: rgb(255, 64, 64);
+}
+.sell-btn {
+  width: 80px;
+  height: 50px;
+  background-color: rgb(104, 0, 0);
+  color: rgb(212, 224, 235);
+  border-radius: 12px;
+  border: 1px solid rgb(104, 0, 0);
+  font-size: large;
+  cursor: pointer;
+  color: rgb(186, 222, 253);
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
